@@ -1,0 +1,45 @@
++-------------------------------------+
+|               Main                  |
++-------------------------------------+
+| - scanner: Scanner                   |
+| - bossname: String                   |
+| - bosshealth: int                    |
+| - bosspower: int                     |
+| - name: String                       |
+| - playerhealth: int                  |
+| - playerattack: int                  |
+| - playerspAttack: int                |
+| - playerrecovery: int                |
+| - playerspAttackmax: int             |
+| - playerrecoverymax: int             |
++-------------------------------------+
+| - running: boolean                   |
++-------------------------------------+
+| <<entry-point>>                      |
+| + main(String[] args): void          |
++-------------------------------------+
+| - main_game: void                    |
++-------------------------------------+
+
++-------------------------------------+
+|            Characters               |
++-------------------------------------+
+| - bossname: String                   |
+| - bosshealth: int                    |
+| - bosspower: int                     |
+| - playerName: String                 |
+| - playerHealth: int                  |
+| - playerAttack: int                  |
+| - playerSpAttack: int                |
+| - playerRecovery: int                |
+| - playerSpAttackMax: int             |
+| - playerRecoveryMax: int             |
++-------------------------------------+
+| + Characters(...)                    |
+| + health(): String                   |
+| + durability(): String               |
+| + attack(): String                   |
+| + recovery(): String                 |
+| + spAttack(): String                 |
+| + counter(): String                  |
++-------------------------------------+
